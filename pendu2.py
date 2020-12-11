@@ -1,5 +1,5 @@
 from paramètres_pendu import*
-from fonctions import*
+from fonctions_pendu import*
 
 
 def jouer_pendu():
@@ -55,3 +55,5 @@ def jouer_pendu():
     reponse = input('Souhaitez vous relancer une partie ?')
     if reponse in ['oui','OUI','O','Oui','o']:
         jouer_pendu()
+
+jouer_pendu()
