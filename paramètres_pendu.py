@@ -19,4 +19,3 @@ with open('meilleur_score.txt','r') as ms :
 with open('liste_mots.txt','r') as f:
     lines = [line.strip('\n') for line in f.readlines()]
     f.close()
-    
